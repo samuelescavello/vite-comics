@@ -1,14 +1,14 @@
 <template>
-   <div class="container d-flex justify-content-between align-items-center p-4 ">
+   <header class="container d-flex justify-content-between align-items-center p-4 ">
         <div>
             <img src="../public/img/dc-logo.png" alt="">
         </div>
         <div>
            <ul>
-               <li v-for="(element, index) in menu" :key="index"><a :href="element.url">{{ element.name }}</a></li>
+               <li class="text-uppercase" v-for="(element, index) in menu" :key="index"><a :href="element.url">{{ element.name }}</a></li>
            </ul>
         </div>
-   </div>
+   </header>
 </template>
 
 <script>
@@ -66,6 +66,7 @@
 </script>
 
 <style lang="scss" scoped>
+
     ul {
         list-style: none;
         display: flex;
@@ -79,8 +80,16 @@
                 text-decoration: none;
                 color: black;
                 font-weight: 600;
+
+                &:hover {
+                    color: #0282F9;
+                }
             }
         }
+    }
+
+    header {
+        background-color: #FFFFFF;
     }
 
 </style>
