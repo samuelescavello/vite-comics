@@ -2,7 +2,7 @@
     <div id="top">
         <div class="container d-flex justify-content-space-between py-5 ">
             <ul>
-                <li v-for="(element, index) in menuFooter" :key="index"><a href="#"><img :src="element.img" alt="#"><span>{{ element.testo }}</span></a></li>
+                <li v-for="(element, index) in menuFooter" :key="index"><a href="#"><img :src="element.img" alt="#"><span class="text-uppercase">{{ element.testo }}</span></a></li>
             </ul>
         </div>
     </div>

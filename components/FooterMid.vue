@@ -6,19 +6,19 @@
                 <ul>
                     <h4 class="text-uppercase pb-3 ">dc comics</h4>
                     <li v-for=" (element, index) in listOne" :key="index">
-                        {{element.testoOne}}
+                        <a href="#">{{element.testoOne}}</a>
                     </li>
                 </ul>
                 <ul>
                     <h4 class="text-uppercase pb-3 ">dc</h4>
                     <li v-for=" (element, index) in listTwo" :key="index">
-                        {{element.testoTwo}}
+                        <a href="#">{{element.testoTwo}}</a>
                     </li>
                 </ul>
                 <ul>
                     <h4 class="text-uppercase pb-3 ">sites</h4>
                     <li v-for=" (element, index) in listThree" :key="index">
-                        {{element.testoThree}}
+                        <a href="#">{{element.testoThree}}</a>
                     </li>
                 </ul>
             </div>
@@ -142,8 +142,10 @@
         list-style: none;
         margin-top: 50px;
 
-        li {
+        a {
+            text-decoration: none;
             color: lightgray;
-        }
+         }
+        
     }
 </style>

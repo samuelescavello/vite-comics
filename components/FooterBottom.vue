@@ -2,19 +2,19 @@
     <div id="bottom">
         <div class="container d-flex justify-content-between">
             <div class="bottone text-center text-uppercase">
-                sing-up now!
+                <a href="#">sing-up now!</a>
             </div>
-            <div>
+            <div class="d-flex ">
                 <h5 class="text-uppercase ">
                     follow us
                 </h5>
-                <!-- <ul>
-                    <li>
-                        <a>
-                            
-                        </a>
-                    </li>
-                </ul> -->
+                <ul class="d-flex">
+                    <li><a href="#"><img src="../public/img/footer-facebook.png" alt="foto"></a></li>
+                    <li><a href="#"><img src="../public/img/footer-twitter.png" alt="foto"></a></li>
+                    <li><a href="#"><img src="../public/img/footer-youtube.png" alt="foto"></a></li>
+                    <li><a href="#"><img src="../public/img/footer-pinterest.png" alt="foto"></a></li>
+                    <li><a href="#"><img src="../public/img/footer-periscope.png" alt="foto"></a></li>
+                </ul>
             </div>
         </div>
     </div>
@@ -40,13 +40,27 @@
 
 .bottone{
     border: 2px solid #0282F9;
-    width: 150px;
     padding: 10px;
+    height: 50px;
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
 }
 
 h5{
     padding-top: 10px;
     color: #0282F9;
+}
+
+ul{
+    list-style: none;
+    padding-top: 5px;
+
+    li{
+        margin: 0 10px;
+    }
 }
    
 </style>
