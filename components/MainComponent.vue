@@ -1,6 +1,6 @@
 <template>
     <main>
-        <div class="container p-5">
+        <div class="container py-4">
             <h3 class="text-white">-->content goes here<--</h3>
         </div>
     </main>
@@ -8,7 +8,7 @@
 
 <script>
     export default {
-        name: 'mainComponent',
+        name: 'MainComponent',
     }
 </script>
 

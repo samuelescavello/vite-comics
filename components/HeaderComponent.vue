@@ -1,5 +1,5 @@
 <template>
-   <header class="container d-flex justify-content-between align-items-center p-4 ">
+   <header class="container d-flex justify-content-between align-items-center py-4 ">
         <div>
             <img src="../public/img/dc-logo.png" alt="">
         </div>
