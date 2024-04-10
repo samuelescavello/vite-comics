@@ -2,16 +2,12 @@
     <div id="mid" class="d-flex">
         <div class="d-flex container ">
 
-            <div id="left" class=" debug d-flex">
+            <div id="left" class=" d-flex">
                 <ul>
                     <h4 class="text-uppercase pb-3 ">dc comics</h4>
                     <li v-for=" (element, index) in listOne" :key="index">
                         {{element.testoOne}}
                     </li>
-                    
-                    <ul>
-                        <li>d</li>
-                    </ul>
                 </ul>
                 <ul>
                     <h4 class="text-uppercase pb-3 ">dc</h4>
@@ -26,7 +22,7 @@
                     </li>
                 </ul>
             </div>
-            <div id="right" class="debug">
+            <div id="right">
                 <img src="../public/img/dc-logo-bg.png" alt="#">
             </div>
 
@@ -64,37 +60,37 @@
                 ],
                 listTwo: [
                     {
-                        testoTwo:'terms of use',
+                        testoTwo:'Terms of use',
                     },
                     {
-                        testoTwo:'privacy policy (new)',
+                        testoTwo:'Privacy policy (new)',
                     },
                     {
-                        testoTwo:'ad choices',
+                        testoTwo:'Ad choices',
                     },
                     {
-                        testoTwo:'advertising',
+                        testoTwo:'Advertising',
                     },
                     {
-                        testoTwo:'jobs',
+                        testoTwo:'Jobs',
                     },
                     {
-                        testoTwo:'subscriptions',
+                        testoTwo:'Subscriptions',
                     },
                     {
-                        testoTwo:'talent workshops',
+                        testoTwo:'Talent workshops',
                     },
                     {
                         testoTwo:'CPSC certificates',
                     },
                     {
-                        testoTwo:'ratings',
+                        testoTwo:'Ratings',
                     },
                     {
-                        testoTwo:'shop help',
+                        testoTwo:'Shop help',
                     },
                     {
-                        testoTwo:'contact us',
+                        testoTwo:'Contact us',
                     }
                 ],
                 listThree : [
@@ -120,7 +116,7 @@
 </script>
 
 <style lang="scss" scoped>
-    
+
     #mid {
         display: flex;
         background-image: url(../public/img/footer-bg.jpg);
@@ -136,7 +132,6 @@
 
     #right {
         width: 50%;
-
     }
 
     .debug {
