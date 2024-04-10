@@ -124,6 +124,8 @@
     #mid {
         display: flex;
         background-image: url(../public/img/footer-bg.jpg);
+        background-repeat:no-repeat ;
+        background-size: 100%;
     }
 
     #left {

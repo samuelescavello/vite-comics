@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="bottom">
 
     </div>
 </template>
@@ -11,5 +11,5 @@
 </script>
 
 <style lang="scss" scoped>
-
+   
 </style>
