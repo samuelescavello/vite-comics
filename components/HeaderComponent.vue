@@ -91,5 +91,13 @@
     header {
         background-color: #FFFFFF;
     }
+    
+    ul li {
+        border-bottom: 5px solid rgba(255, 255, 255, 0.0);
+    }
+
+    ul li:hover {
+        border-bottom: 5px solid #0282F9;
+    }
 
 </style>

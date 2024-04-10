@@ -69,4 +69,5 @@
     span {
         padding-left: 10px;
     }
+
 </style>
