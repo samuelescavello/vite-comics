@@ -1,7 +1,8 @@
 <template>
     <main>
+        <div id="jumbo"></div>
         <div class="container py-4">
-            <h3 class="text-white">-->content goes here<--</h3>
+            <div id="current"><h3 class="text-uppercase">current series</h3></div>
             <div class="row">
                 <div class="col-12 col-md-3 col-lg-2 " v-for="(element, index) in comics" :key="index">
                     <CardComponent :image="element.thumb" :type="element.type" :title="element.series" />
@@ -34,5 +35,18 @@ main {
     color: white;
 }
 
+#jumbo {
+    height: 400px;
+    background-image: url(../public/img/jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#current {
+    background-color: #0282F9;
+    padding: 8px;
+    width: 235px;
+    transform: translateY(-90%);
+}
 
 </style>
