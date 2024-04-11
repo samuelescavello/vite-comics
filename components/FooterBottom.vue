@@ -5,9 +5,12 @@
                 <a href="#">sing-up now!</a>
             </div>
             <div class="d-flex ">
-                <h5 class="text-uppercase ">
+                <div id="follow">
+                    <h5 class="text-uppercase ">
                     follow us
-                </h5>
+                    </h5>
+                </div>
+                
                 <ul class="d-flex">
                     <li><a href="#"><img src="../public/img/footer-facebook.png" alt="foto"></a></li>
                     <li><a href="#"><img src="../public/img/footer-twitter.png" alt="foto"></a></li>
@@ -43,15 +46,25 @@
     padding: 10px;
     height: 50px;
 
+    &:hover{
+        background-color: #0282F9;
+    }
+
     a{
         text-decoration: none;
         color: white;
+
     }
 }
 
 h5{
     padding-top: 10px;
     color: #0282F9;
+    cursor: pointer;
+
+    &:hover{
+        color: white;
+    }
 }
 
 ul{

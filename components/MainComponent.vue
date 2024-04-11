@@ -8,6 +8,12 @@
                     <CardComponent :image="element.thumb" :type="element.type" :title="element.series" />
                  </div>
              </div>
+                 
+             <div class="justify-content-center d-flex ">
+                <div class="load text-center ">
+                    <h3 class="text-uppercase">load more</h3>
+                </div>
+             </div>
         </div>
         
     </main>
@@ -47,6 +53,24 @@ main {
     padding: 8px;
     width: 235px;
     transform: translateY(-90%);
+    cursor: pointer;
+
+    &:hover {
+        box-shadow:3px 3px 5px  #0282f986;
+    }
 }
+
+
+.load{
+    background-color: #0282F9;
+    padding: 8px;
+    width: 350px;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow:3px 3px 5px  #0282f986;
+    }
+}
+
 
 </style>

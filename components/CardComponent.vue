@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="card">
         <img :src="image" :alt="type" class="img-fluid v-100">
     </div>
     <div>
@@ -23,5 +23,13 @@
         // width: 200px;
         // height: 230px;
         min-height: 300px;
+        
+    }
+
+    #card{
+        cursor: pointer;
+        &:hover{
+            box-shadow:6px 6px 5px #dedede;
+        }
     }
 </style>
