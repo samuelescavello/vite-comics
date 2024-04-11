@@ -39,7 +39,7 @@ main {
     height: 400px;
     background-image: url(../public/img/jumbotron.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 #current {

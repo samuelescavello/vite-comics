@@ -121,7 +121,7 @@
         display: flex;
         background-image: url(../public/img/footer-bg.jpg);
         background-repeat:no-repeat ;
-        background-size: 100%;
+        background-size: cover;
     }
 
     #left {
@@ -134,7 +134,7 @@
         width: 50%;
         background-image: url(../public/img/dc-logo-bg.png);
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
     }
 
     .debug {

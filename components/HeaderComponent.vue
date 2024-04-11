@@ -5,7 +5,7 @@
         </div>
         <div>
            <ul>
-               <li class="text-uppercase" v-for="(element, index) in menu" :key="index"><a :href="element.url">{{ element.name }}</a></li>
+               <li class="text-uppercase " v-for="(element, index) in menu" :key="index"><a :href="element.url">{{ element.name }}</a></li>
            </ul>
         </div>
    </header>
