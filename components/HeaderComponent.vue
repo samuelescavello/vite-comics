@@ -66,7 +66,6 @@
 </script>
 
 <style lang="scss" scoped>
-
     ul {
         list-style: none;
         display: flex;
@@ -82,7 +81,7 @@
                 font-weight: 600;
 
                 &:hover {
-                    color: #0282F9;
+                   color: #0282F9;
                 }
             }
         }

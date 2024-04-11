@@ -23,7 +23,7 @@
                 </ul>
             </div>
             <div id="right">
-                <img src="../public/img/dc-logo-bg.png" alt="#">
+                <!-- <img src="../public/img/dc-logo-bg.png" alt="#"> -->
             </div>
 
         </div>
@@ -132,6 +132,9 @@
 
     #right {
         width: 50%;
+        background-image: url(../public/img/dc-logo-bg.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
     }
 
     .debug {
@@ -147,5 +150,9 @@
             color: lightgray;
          }
         
+    }
+
+    a:hover {
+        color: white;
     }
 </style>
